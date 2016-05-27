@@ -1,0 +1,366 @@
+
+body{
+	margin: 0px;
+padding: 0px;
+font: 12px "microsoft yahei";
+color: #222;
+background: none repeat scroll 0% 0% #FFF;
+}
+body a {
+    color: #222;
+}
+body img {
+    border:none;
+}			
+/*---------------------------------ban---------------------------------------*/			
+           #ban{
+           	width: 100%;
+           	height: 420px;
+           	margin: 0 auto;
+           }
+           #ban img{
+           	width: 100%;
+           	height: 420px;
+           }
+   /*---------------------------------home---------------------------------------*/	
+   #home{
+				clear: both;
+				margin: 0 auto;
+				width: 1180px;
+				height: 210px;
+				padding-top:18px ;
+				overflow: hidden;
+			}
+			#home-left{
+				float: left;
+				width:310px;
+				height:200px;
+				padding: 4px;
+				line-height: 22px;
+				text-align: center;
+				border: 1px solid #ddd;
+			}
+			#home a:hover{
+				color: #f00;
+			}
+			#home-center{
+				float: left;
+				width:500px;
+				height:200px;
+				margin-left: 15px;
+				padding: 4px;
+				line-height: 22px;
+				text-align: center;
+				border: 1px solid #ddd;
+			}
+			#home-right{
+				float: right;
+				width:310px;
+				height:200px;
+				margin-left:15px ;
+				padding: 4px;
+				line-height: 22px;
+				text-align: center;
+				border: 1px solid #ddd;
+			}
+			.homeline{
+				margin:0 auto;
+				width:1180px;
+				height:18px; 
+				background: url("../img/line.jpg") repeat scroll 0% 0% transparent;
+				}
+			
+				.homeline2{
+				
+				
+				width: 1180px;
+				height: 160px;
+				overflow: hidden;
+				background: #f9f9f9;
+				margin: 0 auto;
+				border: 1px solid #ddd;
+			    
+			}    
+				#leftimg{
+				width: 597px;
+				height: 122px;
+				float: left;
+				background: #f9f9f9;
+				margin:15px 0;
+				padding-left: 18px;
+			}
+		     #rightsearch{
+		     	float: left;
+		     	width: 562px;
+		     	height: 159px;
+		     	background: url(../img/bg1.png) no-repeat left;
+		     }
+		     .inputcss{
+		     	width: 40px;
+		     	height: 17px;
+		     	line-height: 15px;
+		     	float: left;
+		     	margin-top:25px ;
+		     	margin-left:70px ;
+		     	border: 1px solid #ccc;
+		     }
+		     .rinputcss{
+		     	width: 40px;
+		     	height: 17px;
+		     	line-height: 15px;
+		     	float: left;
+		     	margin-top:25px ;
+		     	margin-left:10px ;
+		     	border: 1px solid #ccc;
+		     }
+		     .searchinput{
+		     	
+		     	width: 40px;
+		     	height: 15px;
+		     }
+		     .selecttitle{
+		     	margin-left:80px ;
+		     	margin-top:22px ;
+		     	float: left;
+		     }
+		     .images{
+		     	float: left;
+		     	cursor: pointer;
+		     	margin: 5px 0;
+		     	margin-left: 5px;
+		     }
+		     .selecttitl{
+		     	float: left;
+		     	margin-left: -120px;
+		     	margin-top: 20px;
+		     	height: 33px;
+		     	
+		     	
+		     }
+		     .selecttit{
+		     	float: left;
+		     	margin-left: 45px;
+		     	
+		     }
+		     .imge{
+		     	float: left;
+		        cursor: pointer;
+		        padding: 0 3px;
+		        height: 24px;
+		     }
+		     .imag{
+		     	float: left;
+		     	margin-top: 20px;
+		     	margin-left:5px ;
+		     }
+		     .selectbtn{
+		     	float: left;
+		     	margin-left: 1020px;
+		     	margin-top: -50px;
+		     	height: 33px;
+		     }
+		     .imgs{
+		     	cursor: pointer;
+		     }
+		     .inputline{
+		     	float: left;
+		     	margin-top:25px ;
+		     	margin-left:5px ;
+		     }
+		     .inputtext{
+		     	float: left;
+		     	margin-top:22px ;
+		     	margin-left:5px ;
+		     	font-size: 12px;
+		     	line-height: 30px;
+		     }   
+		     
+		     .homeline3{
+		     	clear: both;
+				width: 1180px;
+				height: 429px;
+				overflow: hidden;
+				background: #f9f9f9;
+				margin: 0 auto;
+				
+				
+		     }
+		      .homeline6{
+		     	clear: both;
+				width: 1180px;
+				height: 429px;
+				overflow: hidden;
+				background: #f9f9f9;
+				margin: 0 auto;
+				
+				
+		     }
+		     .leftim{
+		     	width: 321px;
+		     	height: 429px;
+		     	float: left;
+		     	background: url("../img/5.jpg") no-repeat;
+		     }
+		     .center{
+		     	width: 259px;
+		     	height: 429px;
+		     	overflow: hidden;
+		     	float: left;
+		     }
+		     .right{
+		     	width: 600px;
+		     	height: 429px;
+		     	float: left;
+		     	overflow: hidden;
+		     }
+		     .righttop{
+		     	width: 640px;
+		     	height: 211px;
+		     	overflow: hidden;
+		     }
+		     .righttopl{
+		     	float: left;
+		     	width: 299px;
+		     	height: 211px;
+		     	overflow: hidden;
+		     	
+		     }
+		     .righttopr{
+		     	float: left;
+		     	width: 326px;
+		     	height: 211px;
+		     	overflow: hidden;
+		     }
+	         .rightbottom{
+		     	width: 640px;
+		     	height: 218px;
+		     	overflow: hidden;
+		     }
+		     .rightbottoml{
+		     	float: left;
+		     	width: 200px;
+		     	height: 218px;
+		     	overflow: hidden;
+		     }
+		     .rightbottomc{
+		     	float: left;
+		     	width: 195px;
+		     	height: 218px;
+		     	overflow: hidden;
+		     }
+		     .rightbottomr{
+		     	float: left;
+		     	width: 205px;
+		     	height: 218px;
+		     	overflow: hidden;
+		     } 
+		     
+	     .homeline4{
+		     	width: 1180px;
+		     	height: 116px;
+		     	margin: 0 auto;
+		     	overflow: hidden;	
+		     }
+		     .p1{
+		     	float: left;
+		     }
+		       .homeline5{
+		     	
+				width: 1180px;
+				height: 429px;
+				overflow: hidden;
+				margin: 0 auto;
+		     }
+		      .leftim{
+		     	width: 321px;
+		     	height: 429px;
+		     	float: left;
+		     	background: url(../img/1 (2).jpg) no-repeat;
+		     }
+		       .rcenter{
+		     	width: 259px;
+		     	height: 429px;
+		     	overflow: hidden;
+		     	float: left;
+		     }
+		     .cright{
+		     	width: 600px;
+		     	height: 429px;
+		     	float: left;
+		     	overflow: hidden;
+		     }
+		     .zuantype{
+		     	float:left; 
+		     	padding:12px 0px 5px; 
+		     	width:200px; 
+		     	height:120px;
+		     }
+		    .zuantype li{
+		     	 width:200px; 
+		     	 line-height:24px; 
+		     	 text-indent:30px;
+		     	 }
+             .zuantype a:hover{
+             	color:#a00;
+             	}
+             	.lefttop{
+             		width: 320px;
+		     	height: 180px;
+		     	float: left;
+		     	background: url(../img/5.jpg) no-repeat;
+             	}
+             .zuanprice{
+		     	float:left; 
+		     	width:200px; 
+		     	height:100px;
+		     }
+		     .zuanprice li{
+		     	 width:200px; 
+		     	 line-height:24px; 
+		     	 text-indent:30px;
+		     	 }
+             .zuanprice a:hover{
+             	color:#a00;
+             	}
+		     
+		     .homeline7{
+		     	clear: both;
+		     	width: 1180px;
+		     	height: 290px;
+		     	margin: 0 auto;
+		     	overflow: hidden;
+		     }
+		     .line-wrap{
+		     	float: left;
+		     	width: 320px;
+		     	height: 288px;
+		     	margin-right: 10px;
+		     	border: 1px solid #ccc;
+		     }
+		     .wrap-head{
+		     	float: left;
+		     	width: 320px;
+		     	height: 33px;
+		     	line-height: 33px;
+		     	text-indent: 15px;
+		     	font-weight: bold;
+		     	background: url(../img/headbg.jpg) repeat scroll 0% 0% transparent;
+		     }
+		     .wrap-main{
+		     	width: 310px;
+		     	height: 245px;
+		     	padding: 5px;
+		     	float: left;
+		     }
+		     .wrap-word{
+		     	width: 310px;
+		     	height: 200px;
+		     	margin: 10px;
+		     	font-weight: bold;
+		     	line-height: 24px;
+		     }
+		     .wrap-r{
+		     	width: 184px;
+		     	height: 290px;
+		     	float: left;
+		     }

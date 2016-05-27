@@ -1,0 +1,147 @@
+/*body{
+	background: #E9E9E9;
+}
+.main{
+	background: #fef1ef;
+	width: 100%;
+	overflow: hidden;
+}
+.car{
+	width: 1180px;
+	height: 511px;
+	background: #fff;
+	margin: 0 auto;
+	border: 1px solid #dedede;
+	margin-top: 20px;
+}
+.carline{
+	width: 1140px;
+	padding: 10px 20px 0 20px;
+	height: 40px;
+	border-top: 3px solid #FFC0C1;
+}
+.headcar{
+	width: 1140px;
+	height: 40px;
+	line-height: 40px;
+	border-bottom: 1px solid #DEDEDE;
+	text-indent: 30px;
+	font-weight: bold;
+	font-size: 14px;
+	background: url(../img/carticon.jpg) no-repeat left center;
+}
+.carnone{
+	width: 1140px;
+	padding: 10px 20px;
+}
+.mainnone{
+	float: left;
+    height: 446px;
+	width: 1178px;
+	background: url(../img/cartnone.jpg) no-repeat;
+}
+.maintext{
+	float: left;
+	margin-left: 600px;
+	margin-top: 100px;
+	padding: 5px 10px;
+	width: 300px;
+	line-height: 30px;
+	border: 1px solid #DEDEDE;
+	background: #FFF0CB;
+}*/
+body a{cursor: pointer;}
+body{  background: #FEF1EF;  }
+.prductbody{margin: 0 auto 20px auto;
+       width: 1180px; }
+
+.cartbody {
+    margin: 20px auto;
+    width: 1180px;
+}
+.cartbody .bodywrap {
+    float: left;
+    width: 1180px;
+    border: 1px solid #DEDEDE;
+    background: #FFFFFF;
+}
+.cartbody .bodywrap .wraphead {
+    padding: 10px 20px 0 20px;
+    width: 1140px;
+    height: 40px;
+    border-top: 3px solid #FFC0C1;
+}
+.cartbody .bodywrap .wrapmain {
+    padding: 10px 20px;
+    width: 1140px;
+}
+.cartbody .bodywrap .wrapmain table {
+    float: left;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    border: none;
+    border-collapse: collapse;
+}
+.cartbody .bodywrap .wrapmain table tr.headrow {
+    height: 30px;
+    line-height: 30px;
+}
+.cartbody .bodywrap .wrapmain table td.img {
+    width: 110px;
+}
+.cartbody .bodywrap .wrapmain table td.size {
+    width: 250px;
+}
+.cartbody .bodywrap .wrapmain table td {
+    padding: 5px;
+    text-align: center;
+}
+
+
+.cartbody .bodywrap .wrapmain table td.price {
+    width: 250px;
+}
+.cartbody .bodywrap .wrapmain table tr.product {
+    background: #F7F7F7;
+}
+.cartbody .bodywrap .wrapmain .mainstat {
+    clear: both;
+    float: left;
+    margin: 10px 0;
+    padding: 0;
+    width: 1140px;
+    height: 40px;
+    background: #F7F7F7;
+}
+.cartbody .bodywrap .wrapmain .mainstat .statleft {
+    float: left;
+    width: 400px;
+    height: 40px;
+    line-height: 40px;
+}
+.cartbody .bodywrap .wrapmain .mainstat .statleft #totalcount {
+    margin: 0 5px;
+    font-weight: bold;
+    color: #C11E1F;
+}
+.cartbody .bodywrap .wrapmain .mainstat .statleft a.gobuy {
+    float: left;
+    margin: -40px 100px;
+    color: #DB3962;
+}
+.cartbody .bodywrap .wrapmain .mainstat .statright {
+    float: right;
+    width: 740px;
+    height: 40px;
+    line-height: 40px;
+    text-align: right;
+}
+.cartbody .bodywrap .wrapmain .mainstat .statright img{margin-top: 10px;cursor: pointer;}
+.cartbody .bodywrap .wrapmain .mainstat .statright #totalmoney {
+    margin: 0 5px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #C11E1F;
+}
+
